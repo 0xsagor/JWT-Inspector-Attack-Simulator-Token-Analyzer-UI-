@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JWT Inspector</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <h1>JWT Inspector</h1>
+
+  <textarea id="token" placeholder="Paste JWT token here"></textarea>
+
+  <button onclick="decode()">Decode Token</button>
+  <button onclick="simulate()">Simulate Attack</button>
+
+  <pre id="output"></pre>
+  <p id="warning"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
