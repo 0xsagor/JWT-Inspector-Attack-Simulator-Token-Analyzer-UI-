@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+}
+
+.app {
+  width: 700px;
+  margin: 60px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+textarea {
+  width: 100%;
+  height: 120px;
+  padding: 10px;
+  font-family: monospace;
+}
+
+button {
+  margin: 10px 5px 10px 0;
+  padding: 8px 14px;
+}
+
+pre {
+  background: #1e1e1e;
+  color: #dcdcdc;
+  padding: 15px;
+  overflow-x: auto;
+}
+
+#warning {
+  color: red;
+  margin-top: 10px;
+}
